@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+
+    <style>
+        body {
+            background-color: #c71c5d;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #362f31;
+        }
+
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #github {
+            color: gold;
+        }
+
+        #linkedin {
+            color: lightblue;
+        }
+
+        #google {
+            color: darkgreen;
+        }
+
+        .card {
+            border: 2px solid white;
+            box-shadow: 5px 5px 15px black;
+        }
+
+        #skills-box {
+            background-color: #8a1643;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 15px;
+        }
+
+        button {
+            background-color: navy;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #000080;
+        }
+
+        input {
+            width: 250px;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        textarea {
+            width: 350px;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Behnam Abdi</h1>
+
+        <img src="photo.jpg" alt="Behnam Photo">
+
+        <p>Welcome to my personal website.</p>
+
+        <div id="skills-box" class="card">
+
+            <h2>Skills</h2>
+
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+                <li>English Learning</li>
+                <li>Cabinet Making</li>
+            </ul>
+
+        </div>
+
+        <h2>Contact</h2>
+
+        <p>Email: behnam@example.com</p>
+        <p>Phone: +61 400 123 456</p>
+
+        <h2>Useful Links</h2>
+
+        <ul>
+            <li>
+                <a id="github"
+                   href="https://www.github.com"
+                   target="_blank">
+                    GitHub
+                </a>
+            </li>
+
+            <li>
+                <a id="linkedin"
+                   href="https://www.linkedin.com"
+                   target="_blank">
+                    LinkedIn
+                </a>
+            </li>
+
+            <li>
+                <a id="google"
+                   href="https://www.google.com"
+                   target="_blank">
+                    Google
+                </a>
+            </li>
+        </ul>
+
+        <h2>Actions</h2>
+
+        <button>
+            Contact Me
+        </button>
+
+        <h2>Contact Form</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Your Name">
+
+            <br><br>
+
+            <input
+                type="email"
+                placeholder="Your Email">
+
+            <br><br>
+
+            <textarea
+                rows="5"
+                placeholder="Write your message">
+            </textarea>
+
+            <br><br>
+
+            <button>
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
