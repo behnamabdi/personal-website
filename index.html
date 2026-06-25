@@ -2,200 +2,227 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website</title>
 
-    <style>
-        body {
-            background-color: #c71c5d;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 40px;
-        }
+<style>
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
+body{
+    background-color:#c71c5d;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:40px;
+}
 
-        h1 {
-            color: #362f31;
-        }
+.container{
+    max-width:800px;
+    margin:auto;
+}
 
-        h2 {
-            border-bottom: 1px solid #333;
-            padding-bottom: 5px;
-        }
+h2{
+    border-bottom:1px solid #333;
+    padding-bottom:5px;
+}
 
-        p {
-            line-height: 1.6;
-        }
+#header-box{
+    text-align:center;
+    background-color:#8a1643;
+    padding:25px;
+    border-radius:15px;
+}
 
-        ul {
-            line-height: 1.8;
-        }
+.card{
+    border:2px solid white;
+    box-shadow:5px 5px 15px black;
+    margin-bottom:20px;
+}
 
-        a {
-            text-decoration: none;
-        }
+.about-box{
+    background-color:#8a1643;
+    padding:20px;
+    border-radius:15px;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+#skills-box{
+    background-color:#8a1643;
+    padding:20px;
+    border-radius:15px;
+}
 
-        #github {
-            color: gold;
-        }
+img{
+    width:250px;
+    border-radius:15px;
+    box-shadow:5px 5px 15px black;
+}
 
-        #linkedin {
-            color: lightblue;
-        }
+ul{
+    line-height:1.8;
+}
 
-        #google {
-            color: darkgreen;
-        }
+a{
+    text-decoration:none;
+}
 
-        .card {
-            border: 2px solid white;
-            box-shadow: 5px 5px 15px black;
-        }
+a:hover{
+    text-decoration:underline;
+}
 
-        #skills-box {
-            background-color: #8a1643;
-            padding: 20px;
-            border-radius: 10px;
-        }
+#github{
+    color:gold;
+}
 
-        img {
-            width: 250px;
-            border-radius: 15px;
-        }
+#linkedin{
+    color:lightblue;
+}
 
-        button {
-            background-color: navy;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 15px;
-            border: none;
-            cursor: pointer;
-        }
+#google{
+    color:darkgreen;
+}
 
-        button:hover {
-            background-color: #000080;
-        }
+button{
+    background-color:navy;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
 
-        input {
-            width: 250px;
-            padding: 10px;
-            border-radius: 8px;
-            border: none;
-        }
+button:hover{
+    background-color:#1e3a8a;
+}
 
-        textarea {
-            width: 350px;
-            padding: 10px;
-            border-radius: 8px;
-            border: none;
-        }
-    </style>
+input{
+    width:250px;
+    padding:10px;
+    border-radius:8px;
+    border:none;
+}
+
+textarea{
+    width:350px;
+    padding:10px;
+    border-radius:8px;
+    border:none;
+}
+
+</style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <h1>Behnam Abdi</h1>
+<div id="header-box" class="card">
 
-        <img src="photo.jpg" alt="Behnam Photo">
+<img src="photo.jpg" alt="Behnam Photo">
 
-        <p>Welcome to my personal website.</p>
+<h1>Behnam Abdi</h1>
 
-        <div id="skills-box" class="card">
+<p>
+Web Development • AI • Automation
+</p>
 
-            <h2>Skills</h2>
+</div>
 
-            <ul>
-                <li>HTML & CSS</li>
-                <li>Web Development</li>
-                <li>Problem Solving</li>
-                <li>English Learning</li>
-                <li>Cabinet Making</li>
-            </ul>
+<div class="card about-box">
 
-        </div>
+<h2>About Me</h2>
 
-        <h2>Contact</h2>
+<p>
+My name is Behnam Abdi.
+I am learning Web Development,
+AI and Automation.
+My goal is to work in Australia.
+</p>
 
-        <p>Email: behnam@example.com</p>
-        <p>Phone: +61 400 123 456</p>
+</div>
 
-        <h2>Useful Links</h2>
+<div id="skills-box" class="card">
 
-        <ul>
-            <li>
-                <a id="github"
-                   href="https://www.github.com"
-                   target="_blank">
-                    GitHub
-                </a>
-            </li>
+<h2>Skills</h2>
 
-            <li>
-                <a id="linkedin"
-                   href="https://www.linkedin.com"
-                   target="_blank">
-                    LinkedIn
-                </a>
-            </li>
+<ul>
+<li>HTML & CSS</li>
+<li>Web Development</li>
+<li>English Learning</li>
+<li>AI & Automation</li>
+<li>Cabinet Making</li>
+</ul>
 
-            <li>
-                <a id="google"
-                   href="https://www.google.com"
-                   target="_blank">
-                    Google
-                </a>
-            </li>
-        </ul>
+</div>
 
-        <h2>Actions</h2>
+<h2>Contact</h2>
 
-        <button>
-            Contact Me
-        </button>
+<p>Email: behnam@example.com</p>
+<p>Phone: +61 400 123 456</p>
 
-        <h2>Contact Form</h2>
+<h2>Useful Links</h2>
 
-        <form>
+<ul>
 
-            <input
-                type="text"
-                placeholder="Your Name">
+<li>
+<a id="github"
+href="https://github.com"
+target="_blank">
+GitHub
+</a>
+</li>
 
-            <br><br>
+<li>
+<a id="linkedin"
+href="https://linkedin.com"
+target="_blank">
+LinkedIn
+</a>
+</li>
 
-            <input
-                type="email"
-                placeholder="Your Email">
+<li>
+<a id="google"
+href="https://google.com"
+target="_blank">
+Google
+</a>
+</li>
 
-            <br><br>
+</ul>
 
-            <textarea
-                rows="5"
-                placeholder="Write your message">
-            </textarea>
+<h2>Actions</h2>
 
-            <br><br>
+<button>Contact Me</button>
 
-            <button>
-                Submit
-            </button>
+<h2>Contact Form</h2>
 
-        </form>
+<form>
 
-    </div>
+<input
+type="text"
+placeholder="Your Name">
+
+<br><br>
+
+<input
+type="email"
+placeholder="Your Email">
+
+<br><br>
+
+<textarea
+rows="5"
+placeholder="Write your message"></textarea>
+
+<br><br>
+
+<button>
+Submit
+</button>
+
+</form>
+
+</div>
 
 </body>
-
 </html>
