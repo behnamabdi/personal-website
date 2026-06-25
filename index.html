@@ -21,40 +21,17 @@ body{
     margin:auto;
 }
 
+h1{
+    color:#362f31;
+}
+
 h2{
     border-bottom:1px solid #333;
     padding-bottom:5px;
 }
 
-#header-box{
-    text-align:center;
-    background-color:#8a1643;
-    padding:25px;
-    border-radius:15px;
-}
-
-.card{
-    border:2px solid white;
-    box-shadow:5px 5px 15px black;
-    margin-bottom:20px;
-}
-
-.about-box{
-    background-color:#8a1643;
-    padding:20px;
-    border-radius:15px;
-}
-
-#skills-box{
-    background-color:#8a1643;
-    padding:20px;
-    border-radius:15px;
-}
-
-img{
-    width:250px;
-    border-radius:15px;
-    box-shadow:5px 5px 15px black;
+p{
+    line-height:1.6;
 }
 
 ul{
@@ -81,12 +58,43 @@ a:hover{
     color:darkgreen;
 }
 
+.card{
+    border:2px solid white;
+    box-shadow:5px 5px 15px black;
+    margin-bottom:20px;
+}
+
+.about-box{
+    background-color:#8a1643;
+    padding:20px;
+    border-radius:15px;
+}
+
+#skills-box{
+    background-color:#8a1643;
+    padding:20px;
+    border-radius:15px;
+}
+
+#header-box{
+    text-align:center;
+    background-color:#8a1643;
+    padding:25px;
+    border-radius:15px;
+}
+
+img{
+    width:250px;
+    border-radius:15px;
+    box-shadow:5px 5px 15px black;
+}
+
 button{
     background-color:navy;
     color:white;
     padding:10px 20px;
-    border:none;
     border-radius:15px;
+    border:none;
     cursor:pointer;
     transition:0.3s;
 }
@@ -109,7 +117,13 @@ textarea{
     border:none;
 }
 
+.links-row{
+    display:flex;
+    gap:20px;
+}
+
 </style>
+
 </head>
 
 <body>
@@ -136,7 +150,8 @@ Web Development • AI • Automation
 My name is Behnam Abdi.
 I am learning Web Development,
 AI and Automation.
-My goal is to work in Australia.
+My goal is to work in Australia
+as a technology professional.
 </p>
 
 </div>
@@ -150,7 +165,7 @@ My goal is to work in Australia.
 <li>Web Development</li>
 <li>English Learning</li>
 <li>AI & Automation</li>
-<li>Cabinet Making</li>
+<li>Site Making</li>
 </ul>
 
 </div>
@@ -162,7 +177,7 @@ My goal is to work in Australia.
 
 <h2>Useful Links</h2>
 
-<ul>
+<ul class="links-row">
 
 <li>
 <a id="github"
@@ -192,7 +207,9 @@ Google
 
 <h2>Actions</h2>
 
-<button>Contact Me</button>
+<button>
+Contact Me
+</button>
 
 <h2>Contact Form</h2>
 
@@ -212,7 +229,8 @@ placeholder="Your Email">
 
 <textarea
 rows="5"
-placeholder="Write your message"></textarea>
+placeholder="Write your message">
+</textarea>
 
 <br><br>
 
@@ -225,4 +243,5 @@ Submit
 </div>
 
 </body>
+
 </html>
